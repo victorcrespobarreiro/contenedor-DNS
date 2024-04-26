@@ -2,7 +2,7 @@ version: '3'
 
 services:
   bind9:
-    image: bind:9
+    image: ubuntu/bind9
     container_name: dns_server
     restart: always
     volumes:
